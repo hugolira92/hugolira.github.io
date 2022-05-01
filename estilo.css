@@ -420,18 +420,19 @@ h1 {
 
 }
 
-#coment-1 {
-    height: 148px;
-    width: 1028px;
-    left: 15px;
-    top: 1054px;
-    border-radius: 4px;
+#painel {
+    height: 1234px;
+    width: 1058px;
+    left: 0px;
+    top: 761px;
+    border-radius: 3px;
+
 
     position: absolute;
-    top: 1142px;
-    right: 60px;
-    bottom: 411px;
-    left: 278px;
+    top: 849px;
+    right: 45px;
+    bottom: 231px;
+    left: 263px;
 
 }
 
