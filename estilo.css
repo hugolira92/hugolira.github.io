@@ -1,0 +1,528 @@
+/*limpar formatação padrão.*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Cabeçalho */
+#cabeçalho {
+    position: absolute;
+    width: 1146px;
+    height: 68px;
+    left: 220px;
+    top: 0px;
+    background: #FDF1EB;
+
+    z-index: 1;
+}
+
+/* Anais do Simpósio Latino Americano de Ciências de Alimentos */
+#top-anais {
+    position: absolute;
+    width: 391px;
+    height: 16px;
+    left: 36px;
+    top: 5px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #725C5C;
+}
+
+/* Anais do 13º Simpósio Latino Americano de Ciência de Alimentos */
+#middle-anais {
+    position: absolute;
+    width: 643px;
+    height: 26px;
+    left: 36px;
+    top: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #725C5C;
+}
+
+/* ISSN: 1234-5678 */
+#bottom-ISSN {
+    position: absolute;
+    width: 105px;
+    height: 16px;
+    left: 36px;
+    top:48px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #725C5C;
+}
+
+/*SELEÇÃO DE IDIOMA*/
+#moldura-idioma {
+    height: 34px;
+    width: 97px;
+    left: 789px;
+    top: 17px;
+    border-radius: 3px;
+
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    left: 1009px;
+    top: 17px;
+
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    
+    z-index: 5;
+}
+
+/* language image */
+#globo-idioma {
+    height: 21px;
+    width: 22px;
+    left: 798px;
+    top: 22px;
+    border-radius: 0px;
+
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 1018px;
+    top: 22px;
+
+    background: url(dewey.png);
+
+    z-index: 6;
+
+}
+
+/* botão seletor de idioma */
+#down-buttom {
+    height: 4px;
+    width: 6px;
+    left: 867px;
+    top: 33px;
+    border-radius: 0px;
+
+    position: absolute;
+    width: 6px;
+    height: 4px;
+    left: 1087px;
+    top: 33px;
+
+z-index: 6;
+}
+/* IDIOMA PT, BR */
+#idioma {
+    position: absolute;
+width: 42px;
+height: 18px;
+left: 1040px;
+top: 25px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+color: #333333;
+
+z-index: 6;
+}
+
+
+/* login */
+/* Bem vindo! */
+#bem-vindo {
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    left: 999px;
+    top: 17px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #333333;
+}
+
+/* alguem12@galoascience.com */
+#email-user {
+    position: absolute;
+    width: 163px;
+    height: 15px;
+    left: 908px;
+    top: 36px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #333333;
+}
+
+/* image user*/
+#user-image {
+    position: absolute;
+    left: 1297px;
+    right: 29px;
+    top: 19px;
+    bottom: 19px;
+
+    border-radius: 50px;
+
+    z-index: 5;
+}
+
+/* aviso de notificação */
+#fundo-notificação {
+    height: 12px;
+    width: 12px;
+    left: 10px;
+    top: 10px;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 17px;
+    right: 36px;
+    bottom: 39px;
+    left: 1318px;
+
+    /* Danger */
+
+    background: #F85959;
+    border-radius: 10px;
+
+    z-index: 6;
+}
+
+#qtd-notificação {
+    position: absolute;
+    width: 6px;
+    height: 12px;
+    right: 3px;
+    bottom: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+}
+/*--------------------------FIM DO CABEÇALHO DA PÁGINA--------------------------*/
+
+/*------------------------INICIO BARRA LATERAL ESQUERDA-------------------------*/
+/* SIDE SHADOW */
+#side-shadow {
+    height: 2508px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -21.04%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+    z-index: 1;
+
+}
+
+
+/* Topo da barra lateral */
+#top-barra-lateral {
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+
+    height: 68px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+    z-index: 2;
+}
+
+/* SLACA 2019 */
+#texto-topo {
+    position: absolute;
+    left: 9.09%;
+    right: 10%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* IMAGEM SLACA 2019 LATERAL */
+#logo-slaca {
+    height: 258px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 68px;
+    bottom: 0%;
+
+    background: url(dewey.png);
+
+    z-index: 6;
+}
+
+/* MENU LATERAL APRESENTAÇÃO */
+
+
+#menu-lateral {
+
+    width: 220px;
+
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 326px;
+    bottom: 0px;
+
+    background: #FFFFFF;
+    
+    z-index: 1;
+}
+
+.menu-item {
+    border-bottom: 2px solid #e5e5e5;
+    width: 220px;
+    height: 33px;
+}
+
+
+#link-apresentação, #link-comitês, #link-autores, #link-eixos, #link-trabalhos, #link-contato {
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: 7px;
+
+    position: absolute;
+    right: 97px;
+    left: 24px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #725C5C;
+}
+
+.menu-item:hover{
+    background: #FDF1EB;
+    border-left: 5px solid #ed7839;
+    width: 215px;
+    
+}
+
+/*-------------------------FIM DA BARRA LATERAL ESQUERDA-------------------------*/
+/*-----------------------------INICIO AREA PRINCIPAL-----------------------------*/
+
+#area-título {
+    height: 54px;
+    width: 786px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+
+    position: absolute;
+    height: 54px;
+    left: 263px;
+    right: 273px;
+    top: 88px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+
+    letter-spacing: 0.05em;
+
+    color: #ED7839;
+}
+
+#video {
+    
+    position: absolute;
+    width: 783px;
+    height: 439px;
+    left: 265px;
+    top: 161px;
+
+    background: rgba(141, 53, 6, 0.5);
+    border-radius: 3px;
+
+}
+
+/*-----------------------------FINAL AREA PRINCIPAL-----------------------------*/
+/*-------------------------INICIO BARRA LATERAL DIREITA-------------------------*/
+#download {
+    height: 31px;
+    width: 120px;
+    left: 842px;
+    top: 0px;
+    border-radius: 4px;
+
+    position: absolute;
+    left: 1105px;
+    right: 141px;
+    top: 88px;
+    bottom: 1582px;
+}
+
+
+#favorito {
+    height: 31px;
+    width: 43px;
+    left: 967px;
+    top: 0px;
+    border-radius: 4px;
+
+    position: absolute;
+    left: 1230px;
+    right: 93px;
+    top: 88px;
+    bottom: 1582px;
+}
+
+#doi {
+    height: 31px;
+    width: 43px;
+    left: 1015px;
+    top: 0px;
+    border-radius: 4px;
+
+    position: absolute;
+    left: 1278px;
+    right: 45px;
+    top: 88px;
+    bottom: 1582px;
+}
+
+#citar {
+    height: 25px;
+    width: 239px;
+    left: 820px;
+    top: 43px;
+    border-radius: nullpx;
+
+
+    position: absolute;
+    height: 25px;
+    left: 1083px;
+    right: 44px;
+    top: 131px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height, or 179% */
+
+    text-align: right;
+    letter-spacing: 0.05em;
+
+    color: #ED7839;
+}
+
+/* INICIO LATERAL DIREITA */
+#detalhes {
+    position: absolute;
+    width: 242px;
+    height: 439px;
+    left: 1079px;
+    top: 161px;
+
+border: 1px solid #ECECEC;
+box-sizing: border-box;
+border-radius: 3px;
+}
+
+/* FINAL LATERAL DIREITA */
+
+
+/*-------------------------FINAL BARRA LATERAL DIREITA-------------------------*/
+
+/*---------------------------------- RODAPÉ ----------------------------------*/
+#rodape {
+    height: 181px;
+    width: 1086px;
+    left: 14px;
+    top: 0px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 234px;
+    right: 46px;
+    top: 1520px;
+    bottom: 0px;
+
+    background: url(footer.png);
+}
